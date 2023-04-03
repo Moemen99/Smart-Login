@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #24353F;
+    font-size: 1.25rem;
+    
+}
+.navbar{
+        background-color:  #24353F;
+    
+        box-shadow: .3125rem  .3125rem 1.25rem .625rem #171717;
+    
+}
+.view .frame{
+    background-color:  #24353F;
+
+    box-shadow: .3125rem  .3125rem 1.25rem .625rem #171717;
+}
+
+h2  {
+    color: #179DB3;
+    font-size: 4.375rem;
+}
+
+button.sign{
+    color:#179DB3 ;
+    background-color: transparent;
+    outline: #179DB3;
+    border: .0625rem solid  #179DB3;
+    padding: .9375rem;
+    border-radius: .3125rem;
+    transition: 0.3s
+}
+input::placeholder{
+    color: rgba(215, 214, 214, 0.582);
+    font-size: 1.5625rem;
+}
+
+input[type=text],input[type=email],input[type=password]{
+    font-size: 1.25rem;
+     background-color:transparent ;
+     color: white;
+}
+input[type=text]:focus ,input[type=email]:focus,input[type=password]:focus{
+
+     background-color:transparent ;
+     color: white;
+}
+button.sign:hover{
+    background-color: #179DB3;
+    color: white;
+}
+
+p.red {
+    color: red;
+}
+
+p.green{
+    color: green;
+}
+
+
+
+.logout{
+    border: .0625rem solid orange;
+    border-radius: .3125rem;
+    padding: .625rem;
+}
+
+.logout:hover{
+    background-color: orange;
+    
+}
+
+a.account{
+    text-decoration: none;
+    
+}
+a.account:hover{
+    text-decoration:underline;
+}

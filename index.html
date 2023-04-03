@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="view text-center vh-100 pt-5 mt-5">
+        <div class="container">
+            <div class="frame p-5 ">
+
+                
+                <h2 class="mb-5">Smart Login System</h2>
+                <div class="input mb-4 ">
+                    <input type="text" id="name" placeholder="Enter your Name" class="form-control p-3">
+                </div>
+                <div class="input mb-4">
+                    <input type="email" id="email" placeholder="Enter your email" class="form-control p-3">
+                </div>
+                <div class="input mb-4 position-relative">
+                    <input type="password" id="password" placeholder="Enter your password" class="form-control p-3"  >
+                    
+                </div>
+
+                    <p class="red d-none" id="warning">All Inputs Are Required</p>
+                    <p class="green d-none"  id="success">Success</p>
+                    <p class="red d-none " id="exist">email already exists</p>
+                    <button type="submit"  class="w-100 sign mb-4" id="signup"><span>Sign Up</span></button>
+                    <p class="text-white">You have an account? <a class="text-white account" href="sign-in.html" target="_self">Signin</a></p>
+                
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
